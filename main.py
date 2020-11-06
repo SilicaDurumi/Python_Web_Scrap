@@ -1,6 +1,7 @@
-from indeed import extract_indeed_pages, extract_indeed_jobs
+from indeed import get_jobs as get_indeed_jobs
+from stackover import get_jobs as get_stackover_jobs
 
-last_indeed_pages = extract_indeed_pages()
-indeed_jobs = extract_indeed_jobs(last_indeed_pages)
+# indeed_jobs = get_indeed_jobs()
+stackover_jobs = get_stackover_jobs()
 
-print(indeed_jobs)
+# print(indeed_jobs)
